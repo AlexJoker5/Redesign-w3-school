@@ -1,0 +1,64 @@
+body {
+    background-image: url(../Images/matrix2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+    
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+/* Mega Dropdown */
+#mega_dropdown{
+    border-top: none;
+    margin-top: 0;
+    border-radius: 0;
+    border-width: 0;
+    width: 100%;
+}
+
+#navbarDropdown::after{
+    transition: transform 0.15s linear; 
+}
+.show#navbarDropdown::after{
+    transform: translateY(3px);
+}
+
+#Lessons{
+    margin-left: 2rem;
+}
+#closeButton{
+    margin-right: 2rem;
+}
+
+#megaText1{
+    font-family: 'sans-serif';
+    margin: 10px;
+}
+#megaText2{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#megaHeader{
+    font-family: sans-serif;
+    color: #FFF4A3;
+}
+
+#categoryDrop{
+    margin-top: 12px;
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+

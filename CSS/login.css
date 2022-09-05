@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url(../Images/matrix.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.9) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+color: black;
+border:0 !important;
+}
+.fas{
+    margin-left: 5px;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+/* Mega Dropdown */
+#mega_dropdown{
+    border-top: none;
+    margin-top: 0;
+    border-radius: 0;
+    border-width: 0;
+    width: 100%;
+}
+
+#navbarDropdown::after{
+    transition: transform 0.15s linear; 
+}
+.show#navbarDropdown::after{
+    transform: translateY(3px);
+}
+
+#Lessons{
+    margin-left: 2rem;
+}
+#closeButton{
+    margin-right: 2rem;
+}
+
+#megaText1{
+    font-family: 'sans-serif';
+    margin: 10px;
+}
+#megaText2{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#megaHeader{
+    font-family: sans-serif;
+    color: #FFF4A3;
+}
+
+#categoryDrop{
+    margin-top: 12px;
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

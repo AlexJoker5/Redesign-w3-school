@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Class</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a href="index.html" routerLinkActive="router-link-active" class="navbar-brand ml-20">
+                    <img src="../Images/Java.png" width="30px" height="40px" alt="">
+                    <span>&nbsp;&nbsp;Developer Class</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNav1">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown dropdown-mega position-static">
+                            <a href="comingsoon.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            data-bs-auto-close="outside">Courses</a>
+                            <div class="dropdown-menu shadow bg-dark" id="mega_dropdown">
+                                <div class="mega-content">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="container d-flex justify-content-between">
+                                                <h2 id="Lessons">
+                                                    <b style="color:#FFF4A3">Courses</b>
+                                                </h2>
+                                                <button class="btn" type="submit" id="closeButton"><a href="index.html" class="text-decoration-none"><i class="fas fa-times fa-2x" style="color: white;"></i></a></button>                                                                                   
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4" id="megaDropdown">
+                                                <h4 id="megaHeader">Frontend Technology</h4>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="HTMLCourse/HTMLintro.html" id="megaText2">HTML</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="CSSCourse/CSSHome.html" id="megaText2">CSS</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">JavaScript</a>
+                                                </div>
+
+                                                <h4 id="megaHeader">Angular</h4>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Getting Start Angular</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Angular Components</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4" id="megaDropdown">
+                                                <h4 id="megaHeader">Java SE</h4>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Environments Preparation</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Language Fundamentals</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Object-Oriented Programming</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Basic Java API</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Collections</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Input/Output & NiO<sub>2</sub></a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Lambda & Streams</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Java Language Changes</a>
+                                                </div>
+
+                                                <h4 id="megaHeader">Spring Framework</h4>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Data Access</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Web MVC</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Web Security</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4" id="megaDropdown">
+                                                <h4 id="megaHeader">Kotlin</h4>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Kotlin Programming Basic</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Kotlin Layouts</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Kotlin Activity</a>
+                                                </div>
+
+                                                <h4 id="megaHeader">Java FX</h4>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Java FX with Java</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Java FX with Kotlin</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Java FX tips</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Java FX with Spring Boots</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 py-4 px-xl-5 px-4" id="megaDropdown">
+                                                <h4 id="megaHeader">Services</h5>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Accommodations</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">Privacy</a>
+                                                </div>
+                                                <div class="text-white" id="megaText1">
+                                                    <a href="comingsoon.html" id="megaText2">FAQ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="comingsoon.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle navigation"
+                            data-bs-auto-close="outside">Categories</a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" id="categoryDrop">
+                                <li><a class="dropdown-item" href="comingsoon.html">Frontend Technology</a></li>
+                                <li><a class="dropdown-item" href="comingsoon.html">Sever Slide Programming Languages</a></li>
+                                <li><a class="dropdown-item" href="comingsoon.html">Framework</a></li>
+                                <li><a class="dropdown-item" href="comingsoon.html">Databases</a></li>
+                                <li><a class="dropdown-item" href="comingsoon.html">Cloud Services</a></li>
+                              </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLinkActive class="nav-link" href="Pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLinkActive class="nav-link" href="aboutUs.html">About Us</a>
+                        </li>                
+                    </ul>
+                    <form class="d-flex">
+                        <div class="input-group me-2">
+                            <input type="search" class="form-control" placeholder="Search..." area-label="search">
+                            <button class="btn btn-outline-light btn-dark" type="submit">Search</button>
+                        </div>
+                        <button class="btn btn-primary rounded me-2">
+                            <a href="login.html" class="text-white text-decoration-none">Login</a>
+                        </button>
+                        <button class="btn btn-success rounded">
+                            <a href="register.html" class="text-white text-decoration-none">Register</a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+    </nav>
+
+    <div id="showcase" class="d-flex justify-content-center align-items-center">
+        <div id="overlay"></div>
+        <div id="header1" class="container text-white text-center">
+            <h3 class="display-5 mb-0" id="text1">Learn to Code With</h3>
+            <h1 class="display-1" id="text2">DEVELOPER CLASS</h1>
+            <p class="lead d-none d-md-block" id="text3">We mainly teach HTML, CSS, Javascript, Angular, Java SE, Java EE, Java FX, Spring Boots & Kotlin</p>
+            <button id="book" class="btn btn-lg btn-success px-5">
+                <a href="welcome.html" style="text-decoration: none; color: white;">LEARN MORE</a>
+            </button>
+        </div>
+    </div>
+
+    <svg style="background-color:#BFFCF9;" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#141414"></path>
+    </svg>
+
+    <div class="container-fluid" style="padding: 0;">
+        <div class="container-fluid" id="background" style="background-color: #BFFCF9; ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="codeBody" style="padding:3%;">
+                        <h1 style="font-size:100px;font-weight:700;margin-top:-18px!important;">HTML</h1>
+                        <p style="font-size:19px;">The language for building web pages</p>
+                        <a href="HTMLCourse/HTMLintro.html" id="buttonLink" style="margin-bottom:2px;">
+                            <button class="btn btn-lg rounded-5 btn-success" id="button">Learn HTML</button>
+                        </a><br>
+                        <a id="buttonLink" href="HTMLCourse/website.html" title="HTML video tutorial">
+                            <button class="btn btn-lg rounded-5 yellow-button" id="button">Video Tutorial</button>
+                        </a><br>
+                        <a id="buttonLink" href="comingsoon.html">
+                            <button class="btn btn-lg btn-dark rounded-5 mt-1" id="button">Get Certificate</button>
+                        </a><br>                
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block" style="padding:3%">
+                      <div class="codeBlock" style="padding:16px; background-color: #E7E9EB;">
+                       <h3>HTML Example:</h3>
+                       <div class="testCode" style="height:300px">
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>title<span class="tagcolor" style="color:mediumblue">&gt;</span></span>HTML Tutorial<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/title<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                       </div>
+                       <a href="comingsoon.html" class="tryit-button">Try it Yourself</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid" id="background" style="background-color: #9296F0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="codeBody" style="padding:3%;">
+                        <h1 style="font-size:100px;font-weight:700;margin-top:-18px!important;">CSS</h1>
+                        <p style="font-size:19px;">The language for styling web pages</p>
+                        <a href="CSSCourse/CSSHome.html" id="buttonLink" style="margin-bottom:2px;">
+                            <button class="btn btn-lg rounded-5 btn-success" id="button">Learn CSS</button>
+                        </a><br>
+                        <a id="buttonLink" href="CSSCourse/CSS.html" title="HTML video tutorial">
+                            <button class="btn btn-lg rounded-5 yellow-button" id="button">Video Tutorial</button>
+                        </a><br>
+                        <a id="buttonLink" href="comingsoon.html">
+                            <button class="btn btn-lg btn-dark rounded-5 mt-1" id="button">Get Certificate</button>
+                        </a><br>                
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block" style="padding:3%">
+                    <div class="codeBlock" style="padding:16px; background-color: #E7E9EB;">
+                    <h3>CSS Example:</h3>
+                    <div class="testCode" style="height:300px">
+                        <span class="cssselectorcolor" style="color:brown">
+                        body <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+                        &nbsp; background-color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> lightblue<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>
+                        h1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+                        &nbsp; color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> white<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+                        &nbsp; text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>p <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp; font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span></span>
+                    </div>
+                    <a href="comingsoon.html" class="tryit-button">Try it Yourself</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid bg-dark text-white" id="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="codeBody" style="padding:3%;">
+                        <h1 style="font-size: 80px;font-weight:700;margin-top:-18px!important;">JavaScript</h1>
+                        <p style="font-size:19px;">The language for programming web pages</p>
+                        <a href="comingsoon.html" id="buttonLink" style="margin-bottom:2px;">
+                            <button class="btn btn-lg rounded-5 btn-success" id="button">Learn JavaScript</button>
+                        </a><br>
+                        <a id="buttonLink" href="comingsoon.html" title="HTML video tutorial">
+                            <button class="btn btn-lg rounded-5 yellow-button" id="button">Video Tutorial</button>
+                        </a><br>
+                        <a id="buttonLink" href="comingsoon.html">
+                            <button class="btn btn-lg btn-light rounded-5 mt-1" id="button">Get Certificate</button>
+                        </a><br> 
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block" style="padding:3%">
+                    <div class="codeBlock" style="padding:16px; background-color: #E7E9EB;">
+                    <h3>JavaScript Example:</h3>
+                    <div class="testCode" style="height:300px">
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>button<span class="attributecolor" style="color:red"> onclick<span class="attributevaluecolor" style="color:mediumblue">="myFunction()"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>Click Me!<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                        <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span class="jsnumbercolor" style="color:red">
+                        </span>     &nbsp; <span class="jskeywordcolor" style="color:mediumblue">let</span> x = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"demo"</span>);<br><span class="jsnumbercolor" style="color:red">
+                        </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span class="jspropertycolor" style="color:black">fontSize</span> = <span class="jsstringcolor" style="color:brown">"25px"</span>; <br><span class="jsnumbercolor" style="color:red">
+                        </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span class="jspropertycolor" style="color:black">color</span> = <span class="jsstringcolor" style="color:brown">"red"</span>; <br>}<br>
+                        </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                    </div>
+                    <a href="comingsoon.html" class="tryit-button">Try it Yourself</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid text-white" id="background" style="background-color: #96D4D4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="codeBody" style="padding:3%;">
+                        <h1 class="text-dark" style="font-size:100px;font-weight:700;margin-top:-18px!important;">Java</h1>
+                        <p class="text-dark" style="font-size:19px;">Sever Slide Programming language</p>
+                        <a href="comingsoon.html" id="buttonLink" style="margin-bottom:2px;">
+                            <button class="btn btn-lg rounded-5 btn-success" id="button">Learn Java</button>
+                        </a><br>
+                        <a id="buttonLink" href="comingsoon.html" title="HTML video tutorial">
+                            <button class="btn btn-lg rounded-5 yellow-button" id="button">Video Tutorial</button>
+                        </a><br>
+                        <a id="buttonLink" href="comingsoon.html">
+                            <button class="btn btn-lg btn-dark rounded-5 mt-1" id="button">Get Certificate</button>
+                        </a><br>                
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block" style="padding:3%">
+                    <div class="codeBlock" style="padding:16px; background-color: #E7E9EB;">
+                    <h3>Java Example:</h3>
+                    <div class="testCode" style="height:300px">
+                        <span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                        </span>    <span class="jskeywordcolor" style="color:#dd741d">if </span>( <span class="jsnumbercolor" style="color: #3e7ace">5</span> &gt; <span class="jsnumbercolor" style="color:#3e7ace">2 </span>) {<br>&nbsp; System.<span class="jsnumbercolor" style="color: #a073b8">out</span>.println(<span class="jsstringcolor" style="color:#59863f">"Five is greater than two!"</span>)<span class="jsnumbercolor" style="color: #dd741d">; <br>
+                        </span>}  </span>
+                        </div>
+                    <a href="comingsoon.html" class="tryit-button">Try it Yourself</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark" id="background1">
+        <div class="row" style="max-width:1400px; margin:auto">
+            <div class="col-md-6 text-center float-start" style="padding:2% 3%;">
+                <div class="card-2 rounded-1" style="color:black;background-color:#FFC0C7;padding:24px">
+                    <h2 class="textTitle">Angular</h2>
+                <div style="height:70px;">
+                    <h5 class="textBody">A JS framework for developing web pages</h5>
+                </div>
+                <a href="comingsoon.html" id="button">
+                    <button class="btn btn-lg btn-dark rounded-5 mt-1" style="width: 200px">Learn Angular</button>
+                </a>
+                </div>
+        
+            </div>
+            <div class="col-md-6 text-center float-start" style="padding:2% 3%;">
+                <div class="card-2 rounded-1" style="background-color: #FFF4A3;color:black;padding:24px">
+                <h2 class="textTitle">Java FX</h2>
+                <div style="height:70px;">
+                    <h5 class="textBody">A server slide programming language</h5>
+                </div>
+                <a href="comingsoon.html" id="button">
+                    <button class="btn btn-lg btn-dark rounded-5 mt-1" style="width: 200px">Learn Java FX</button>
+                </a>
+                </div>
+            </div>
+        
+            <div class="col-md-6 text-center float-start" style="padding:2% 3%;">
+                <div class="card-2 rounded-1" style="color:black;background-color:#F3ECEA;padding:24px">
+                <h2 class="textTitle">Kotlin</h2>
+                <div style="height:70px;">
+                    <h5 class="textBody">A programming language which is used in mobile development</h5>
+                </div>
+                <a href="comingsoon.html" id="button">
+                    <button class="btn btn-lg btn-dark rounded-5 mt-1" style="width: 200px">Learn Kotlin</button>
+                </a>
+                </div>
+            </div>
+        
+            <div class="col-md-6 text-center float-start" style="padding:2% 3%;">
+                <div class="card-2 rounded-1" style="color:black;background-color:#D9EEE1;padding:24px">
+                <h2 class="textTitle">Spring</h2>
+                <div style="height:70px;">
+                    <h5 class="textBody">A Java Framework for developing software</h5>
+                </div>
+                <a href="comingsoon.html" id="button">
+                    <button class="btn btn-lg btn-dark rounded-5 mt-1" style="width: 200px">Learn Spring</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="background2">
+        <div class="container" id="background3">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center">
+                        <picture>
+                            <img src="../Images/Learning-pana.png" style="max-width: 22.25rem; max-height: 20.5rem;" alt="" class="">
+                        </picture>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center" id="background4">
+                        <span class="text2">Start for free</span>
+                        <span class="text3">If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.</span>
+                        <a class="signUp" href="register.html">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer p-4 bg-dark text-white text-center">
+        <p>&copy;CopyRight 2022. All rights reserved. Developed by Developer Class.</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
